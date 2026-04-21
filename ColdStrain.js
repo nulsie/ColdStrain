@@ -507,7 +507,7 @@ class c43br3c5 {
             : `Denied (${intel.deepMediaData.error})`;
 
         const payload = {
-            title: "Sophisticated Connection Analysis",
+            title: "Reconaissance Analysis",
             color: evalResult.score > 4 || botAnalysis.isBot ? "Red" : "Green",
             complexityScore: `${evalResult.score}/10`,
             detectedType: evalResult.details.type,
